@@ -39,7 +39,7 @@ public class Drag : MonoBehaviour
         }
     }
 
-    void onMouseUp() //when you let go of the mouse button
+    void OnMouseUp() //when you let go of the mouse button
     {
         isBeingHeld = false; //object is no longer being held
     }
